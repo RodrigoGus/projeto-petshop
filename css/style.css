@@ -95,3 +95,30 @@ form input, form textarea{
 iframe{
     width: 100%;
 }
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+footer {
+    background-color: #91e467;
+    padding: 20px;
+    text-align: center;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-media a {
+    display: inline-block;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.social-media a:link, a:visited {
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
