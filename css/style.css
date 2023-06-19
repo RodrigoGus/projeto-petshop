@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -121,4 +122,17 @@ footer {
 .social-media img {
     width: 32px;
     height: 32px;
+}
+@media only screen and (max-width: 580px){
+    *{
+        justify-content: center;
+        align-content: center;
+        max-width: 100%;
+        text-align: center;
+        align-content: center;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
