@@ -96,7 +96,6 @@ form input, form textarea{
 iframe{
     width: 100%;
 }
-/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 footer {
     background-color: #91e467;
     padding: 20px;
@@ -125,14 +124,15 @@ footer {
 }
 @media only screen and (max-width: 580px){
     *{
-        justify-content: center;
-        align-content: center;
         max-width: 100%;
         text-align: center;
-        align-content: center;
+        margin: auto;
     }
     .flex-container{
-        display: flex;
+        display: inline-block;
         flex-wrap: wrap;
+    }
+    .btn-pata{
+        margin-bottom: 20px;
     }
 }
